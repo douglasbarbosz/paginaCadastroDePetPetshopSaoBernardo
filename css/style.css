@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Petshop;
+    src: url(/fonte/Pet\ Shop.woff);
+}
+
+/* Elemento da tag <body> */
+body {
+    font-family: arial;
+    font-size: 1em;
+    background-color: #F0F8FF;
+    color: #59429d;
+    margin: 1% 35%;
+    padding: 5px; 
+    height: auto;
+}
+
+/* Elemento do ID #petshop */
+#petshop {
+    font-family: Petshop;
+    text-align: center;
+    padding: 2px;
+    color: #380B61;
+}
+
+/* Elemento do ID #subtitulo */
+#subtitulo {
+    text-align: center;
+    padding: 0px 2px 2px 2px;
+    color: #380B61;
+}
+
+/* Elemento do ID #dados */
+#dados {
+    padding: 10px;
+    border: none;
+}
+
+/* Elemento da tag <h4> */
+h4 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+/* Elemento da classe .espacos */
+.espacos {
+    padding: 3px;
+    margin: 1px;
+    text-align: center;
+}
+
+/* Elemento da classe .espacos que está dentro da tag <label> */
+.espacos label {
+    margin-bottom: 0.2em;
+    display: block;
+    color: #59429d;
+}
+
+/* Elemento da classe .espacos que está na tag <input> com o tipo "radio" */
+.espacos input[type="radio"] {
+    display: inline-block;
+}
+ 
+/* Elemento da tag <input> */
+input {
+    color: #59429d;
+    font-size: 1em;
+}
+
+/* Elemento da classe .espacos que está dentro da tag <input> */
+.espacos input {
+    font-size: 1.1em;
+    border-radius: 5px;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+/* Elemento da tag <input> com a pseudoclasse :hover */
+input:hover {
+    border: 1px solid blue;
+}
+
+input::placeholder {
+    text-align: center;
+    color: #59429d;
+}
+
+/* Elemento com ID #botao */
+button {
+    font-size: 1.2em;
+    background-color: #59429d;
+    color: white;
+    padding: 0.2em 0.6em;
+    border: none;
+    margin-bottom: 1em;
+    margin-right: -50%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+/* Elemento com ID #botao com a pseudoclasse :hover */
+button:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+}
